@@ -1,0 +1,49 @@
+<!--Galleria con miniature-->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, intial-scale=1.0" />
+    <title>Progetti filtrabili</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Progetti filtrabili</h1>
+    </header>
+    
+    <main class="sezione">
+       <!--Menu filtro-->
+        <div id="filtri">
+            <button class="filtro" data-tecnologia="tutti">Tutti</button>
+            <button class="filtro" data-tecnologia="html">HTML</button>
+            <button class="filtro" data-tecnologia="css">CSS</button>
+            <button class="filtro" data-tecnologia="javascript">Javascript</button>
+            <button class="filtro" data-tecnologia="react">React</button>
+
+        </div>
+        <!-- Griglia progetti-->
+         <div class="griglia-progetti">
+            <div class="card html css">
+             <h3>Landing Page</h3>
+             <p>Realizzata con HTML e CSS</p>
+            </div>
+            <div class="card javascript">
+             <h3>To-do Lista</h3>
+             <p>Creata con JS</p>
+            </div>
+            <div class="card react">
+             <h3>App React</h3>
+             <p>App con componenti React</p>
+            </div>
+            <div class="card html javascript">
+             <h3>Gioco con JS</h3>
+             <p>Interazione dinamica</p>
+            </div>
+         </div>
+   </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
