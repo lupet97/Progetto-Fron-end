@@ -1,0 +1,35 @@
+<!-- Form contatti con validazione -->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Contattami</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h2> Contattami</h2>
+
+    <!-- Form con 3 campi: nome, email, messaggio -->
+    <form id="form-contatto">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" /> 
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" />
+
+        <label for="messaggio">Messaggio:</label>
+        <textarea id="messaggio"></textarea>
+
+        <button type="submit">Invia</button>
+
+    </form>
+
+    <!-- Area per messaggio di feedback-->
+     <p id="risultato"></p>
+
+<!--File JS-->
+    <script src="form.js"></script>
+
+</body>
+</html>
