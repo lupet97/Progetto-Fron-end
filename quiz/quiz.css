@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif ;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#eisto {
+    margin-top: 15px;
+    font-weight: bold;
+
+}
