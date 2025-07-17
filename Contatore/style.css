@@ -1,0 +1,65 @@
+/* Stile base per il contatore*/ 
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Valore numerico del contatore */
+
+#valore-contatore{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 20px auto;
+    color: #333;
+}
+
+/* Colore in base al valore*/
+#valore-contatore.positivo {
+    color: green;
+}
+
+
+#valore-contatore.negativo {
+    color: red;
+}
+
+#valore-contatore.zero {
+    color: #333;
+}
+
+/*Animazione leggero rimbalzo*/
+.scalato {
+    transform: scale(1.2);
+}
+
+/* Messaggio sotto il contatore */ 
+    #messaggio {
+    color: orange;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 1rem;} /* mantiene lo spazio visibile anche se vuoto*/
+
+/* Stile dei bottoni*/
+.bottoni button {
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bottoni button:hover {
+    background-color: #0056b3;
+
+}
