@@ -1,0 +1,56 @@
+<!--Sistema base di tracking delle visite interne-->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, intial-scale=1.0" />
+    <title>Portfolio con tracking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Il mio Portfolio</h1>
+
+        <nav>
+            <a href="#chi-sono">Chi sono</a>
+            <a href="#progetti">Progetti</a>
+            <a href="#contatti">Contatti</a>
+        </nav>
+    </header>
+    
+    <main>
+        <!--Sezione Chi sono -->
+        <section id="chi-sono" class="sezione trackable">
+            <h2>Chi sono</h2>
+            <p>Sono uno sviluppatore web appassionato di frontend.</p>
+        </section>
+        
+        <!--Sezione Progetti -->
+        <section id="progetti" class="sezione trackable">
+            <h2>I miei progetti</h2>
+            <p>Qui troverai una selezione dei miei lavori.</p>
+        </section>
+
+        <!--Sezione Contatti -->
+        <section id="contatti" class="sezione trackable">
+            <h2>Contattami</h2>
+            <p>Scrivimi a flavio@example.com</p>
+        </section>
+
+<!-- Mostra i risultati del tracking-->
+ <section class="sezione">
+   <h2>Statistiche visita</h2>
+   <ul id="statistiche"></ul>
+ </section>
+   </main>
+
+    <footer>
+        <p>&copy; 2025 Flavio Portfolio</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

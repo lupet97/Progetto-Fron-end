@@ -1,0 +1,28 @@
+body {
+    font: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.sezione{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul#statistiche {
+    list-style-type: square;
+}
